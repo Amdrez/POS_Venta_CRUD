@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SCS\IMG\closed.png" />
+    <None Remove="SCS\IMG\config.png" />
+    <None Remove="SCS\IMG\home.png" />
+    <None Remove="SCS\IMG\info.png" />
+    <None Remove="SCS\IMG\menu.png" />
+    <None Remove="SCS\IMG\minimize.png" />
+    <None Remove="SCS\IMG\POS.png" />
+    <None Remove="SCS\IMG\products.png" />
+    <None Remove="SCS\IMG\profile.png" />
+    <None Remove="SCS\IMG\profilephoto.png" />
+    <None Remove="SCS\IMG\users.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Capa Entidad\Capa Entidad.csproj" />
+    <ProjectReference Include="..\Capa Negocio\Capa Negocio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SCS\IMG\closed.png" />
+    <Resource Include="SCS\IMG\config.png" />
+    <Resource Include="SCS\IMG\home.png" />
+    <Resource Include="SCS\IMG\info.png" />
+    <Resource Include="SCS\IMG\menu.png" />
+    <Resource Include="SCS\IMG\minimize.png" />
+    <Resource Include="SCS\IMG\POS.png" />
+    <Resource Include="SCS\IMG\products.png" />
+    <Resource Include="SCS\IMG\profile.png" />
+    <Resource Include="SCS\IMG\profilephoto.png" />
+    <Resource Include="SCS\IMG\users.png" />
+  </ItemGroup>
+
+</Project>

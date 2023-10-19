@@ -1,0 +1,36 @@
+# Carpeta "bin" y "obj" generada por Visual Studio
+/bin/
+/obj/
+
+# Archivos de respaldo generados por Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Archivos de caché y logs generados por Visual Studio
+[VS]Cache/
+*.log
+
+# Carpetas y archivos de salida de la compilación
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb][Ii][Nn]/
+[Ll][Oo][Gg]s/
+
+# Carpeta "packages" generada por NuGet
+/packages/
+
+# Archivo de configuración personal de usuario para Visual Studio
+*.suo
+
+# Carpeta de respaldo generada por SQL Server Management Studio
+/Backup/
+
+# Carpeta de archivos temporales
+[Tt]emp/
+[Vv][Ss]/[Rr][Ee][Pp][Oo][Rr][Tt][Ss]/ # Carpeta de informes generada por Visual Studio
